@@ -100,3 +100,26 @@ body{
     display: flex;
     height: 50vh;
 }
+#portfolio{
+    background-image: url(img/creme.webp);
+    margin-top: 100px;
+}
+.port{
+    display: flex;
+    justify-content: center;
+    /* margin-top:100px; */
+}
+#ker{
+   padding-left: 300px;
+   padding-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.think2 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
