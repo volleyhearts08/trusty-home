@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0; 
+}
+
+
+footer {
+    background-color: #05294d; 
+    color: #ffffff; 
+    padding: 40px 60px;
+}
+
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.footer-column {
+    flex: 1; 
+}
+
+
+.footer-column:nth-child(2) {
+    flex: 1.5; 
+    padding: 0 20px;
+}
+
+
+h2, h3 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: ;1000px
+    margin-bottom: 20px;
+}
+
+
+.footer-column input[type="email"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    width: 250px;
+    padding: 8px 0;
+    font-size: 0.9em;
+}
+
+.footer-column input[type="email"]::placeholder {
+    color: #cccccc;
+    opacity: 0.8;
+}
+
+
+.address {
+    margin-top: 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #cccccc;
+}
+
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #4a5a6a;
+    margin: 0;
+}
+
+
+.footer-bottom {
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #adadad;
+}
